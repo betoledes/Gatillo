@@ -56,7 +56,7 @@
 	<script>
 		function verificar(){
 			casillaAjax = new XMLHttpRequest();
-			casillaAjax.open('GET', 'http://148.220.52.160/server_gato/ajax/gato.php?casilla='+idcasilla);
+			casillaAjax.open('GET', 'http://148.220.209.34/server_gato/ajax/gato.php?casilla='+idcasilla);
 			casillaAjax.send();
 			casillaAjax.onreadystatechange = function(){
 				if (casillaAjax.readyState == 4 && casillaAjax.status == 200) {
